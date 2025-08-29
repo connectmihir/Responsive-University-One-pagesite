@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- importing font from google fonts--->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- bootstrap CDN--->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>University website</title>
+
+
+</head>
+
+<body>
+
+    <!--working toggle  menu button-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+    <!-- Hero Section -->
+    <section class="header">
+        <nav><a href="index.html"><img src="assest/logo.png" alt="University logo"></a>
+            <div class="nav-links" id="navLinks">
+
+                <!-- importing closing icon for menu-->
+
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#course">Course</a></li>
+                    <li><a href="#testimonials">testimonial</a></li>
+                    <li><a href="#campus">Campus</a></li>
+                    <li><a href="#cta">Contact us</a></li>
+                </ul>
+            </div>
+
+            <!-- importing menu icon-->
+
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <div class="text-box">
+            <h1>Welcome to Harvard</h1>
+            <p>On our campus, world-class faculty and talented students come together to create a better world through
+                groundbreaking research, cutting-edge innovations, and transformative scholarly work.</p>
+
+            <a href="" class="hero-button">Visit us to Know more</a>
+        </div>
+    </section>
+
+<section class="course" id="course">
+    <h1>course we offer</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur amet tenetur dolor at quo minima cumque soluta rerum.</p>
+
+    <div class="row">
+
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dicta ab quis dolorem expedita est ex velit commodi debitis, assumenda dolorum et a porro adipisci praesentium voluptatum facilis quod. Veritatis?</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dicta ab quis dolorem expedita est ex velit commodi debitis, assumenda dolorum et a porro adipisci praesentium voluptatum facilis quod. Veritatis?</p>
+        </div>
+        <div class="course-col">
+            <h3>Post graduation</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dicta ab quis dolorem expedita est ex velit commodi debitis, assumenda dolorum et a porro adipisci praesentium voluptatum facilis quod. Veritatis?</p>
+        </div>
+    </div>
+</section>
+
+<!-- Section of Campus in the home page-->
+
+<section class="campus" id="campus">
+    <h1>Our Global Campus</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam est repellendus omnis perspiciatis sapiente deleniti odit laboriosam exercitationem.</p>
+ <div class="row">
+    <div class="campus-col">
+        <img src="/Web lec/clone/assest/london.png" alt="Londan campus photo">
+        <div class="layer">
+            <h3>LONDON</h3>
+
+        </div>
+    </div>
+    <div class="campus-col">
+        <img src="/Web lec/clone/assest/newyork.png" alt="New YORK campus photo">
+        <div class="layer">
+            <h3>NEW YORK</h3>
+
+        </div>
+    </div>
+    <div class="campus-col">
+        <img src="/Web lec/clone/assest/washington.png" alt="Washington campus photo">
+        <div class="layer">
+            <h3>WASHINGTON</h3>
+
+        </div>
+    </div>
+ </div>
+
+</section>
+
+<!-- Facilities section of the home page-->
+
+<section class="facilities" id="facilities">
+
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, amet id. Molestias consectetur ea sed praesentium, aperiam neque nulla tenetur commodi! Repellendus in vel quas sed atque fugit, inventore nisi. </p>
+
+    <div class="row">
+
+        <div class="facilities-col">
+            <img src="/Web lec/clone/assest/library.png" alt="library of harvard">
+            <h3>Library</h3>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="/Web lec/clone/assest/basketball.png" alt="basketball facilities of harvard">
+            <h3>Basketball facilities</h3>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="/Web lec/clone/assest/cafeteria.png" alt="library of harvard">
+            <h3>Cafeteria</h3>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+    </div>
+
+</section>
+
+<!--Testimonials section of the unversity -->
+
+<section class="testimonials" id="testimonials">
+
+    <h1>What Our Students Say?</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, amet id. Molestias consectetur ea sed praesentium, aperiam neque nulla tenetur commodi! Repellendus in vel quas sed atque fugit, inventore nisi. </p>
+
+    <div class="row">
+
+        <div class="testimonials-col">
+            <img src="/Web lec/clone/assest/user1.jpg" alt="testimonial from our first student">
+
+            <div>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, amet id. Molestias consectetur ea sed praesentium, aperiam neque nulla tenetur commodi! Repellendus in vel quas sed atque fugit, inventore nisi. </p>
+                 <h3>Christine Berley</h3>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+            </div>
+
+        </div>
+
+        <div class="testimonials-col">
+            <img src="/Web lec/clone/assest/user2.jpg" alt="testimonial from our first student">
+
+            <div>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, amet id. Molestias consectetur ea sed praesentium, aperiam neque nulla tenetur commodi! Repellendus in vel quas sed atque fugit, inventore nisi. </p>
+                 <h3>David Lora</h3>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+            </div>
+
+        </div>
+       
+    </div>
+
+
+</section>
+
+
+<!--Call to action section-->
+
+
+<section class="cta" id="cta">
+    <h1>Enroll for our various online courses <br>anywhere from the world</h1>
+    <a href="#" class="hero-button"> Contact Us </a>
+</section>
+
+<!--Footer section-->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ex ut <br> voluptas suscipit magni tenetur deserunt minima.
+    </p>
+
+    <div class="icons">
+   <i class="fa fa-facebook"></i>
+   <i class="fa fa-instagram"></i>
+   <i class="fa fa-twitter"></i>
+   <i class="fa fa-linkedin"></i>
+
+    </div>
+</section>
+</body>
+
+</html>
